@@ -1,4 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewBag.Title = "Index";
 }
-
+<h2>Home</h2>
+<p>@ViewBag.SomeText</p>
+@Html.ActionLink("Link to another page", "Index", "Page2")
